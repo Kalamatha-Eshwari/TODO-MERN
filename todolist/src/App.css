@@ -1,0 +1,80 @@
+.home{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create_form input{
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+}
+
+.create_form button{
+  padding: 10px;
+  background-color: black;
+  color:aqua;
+  cursor: pointer;
+}
+/* Container for the entire To-Do list */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for individual tasks */
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the checkbox and task text */
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox .icon {
+  margin-right: 10px;
+  color: #00796b; /* Adjust color as needed */
+}
+
+.checkbox p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Styling for delete icon */
+.delete {
+  display: flex;
+  align-items: center;
+}
+
+.delete-icon {
+  color: #f44336; /* Red color for delete icon */
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.delete-icon:hover {
+  color: #d32f2f; /* Darker red on hover */
+}
+.line_through{
+  text-decoration: line-through;
+}
